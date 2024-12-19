@@ -1,0 +1,10 @@
+path: /content/CV-TUIA-Garcia/datasets/dog-pose
+train: train/images
+val: test/images
+
+# Keypoints
+kpt_shape: [24, 3] # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+
+# Classes
+names:
+  0: dog
